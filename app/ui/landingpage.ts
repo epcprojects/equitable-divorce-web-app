@@ -4,4 +4,5 @@ import familyLinesBlue from "@/public/images/family-lines-blue.svg"
 import kiteImage from "@/public/images/kite.svg"
 import plantImage from "@/public/images/plant.svg"
 import cloudImage from "@/public/images/cloud.svg"
-export const  landingpageImages = {logo,familyPlantBlue,familyLinesBlue,kiteImage,plantImage,cloudImage}
+import cardOneImage from "@/public/images/card1.svg"
+export const  landingpageImages = {logo,familyPlantBlue,familyLinesBlue,kiteImage,plantImage,cloudImage,cardOneImage}

@@ -23,6 +23,10 @@
   --color-dark-gray: #1F2A37;
   --color-medium-gray: #212529;
   --color-light-pink: #FFE8E2;
+  --color-light-gray: #667085;
+  --color-light-blue: #EBF8FF;
+  --color-purple-gray: #052C65;
+  --color-aqua: #E9F2FF;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -199,4 +203,22 @@ body {
   }
   80% { transform: translateX(10px); }
   100% { transform: translateX(0); }
+}
+.faq-anim {
+  overflow: hidden;
+}
+.faq-anim[data-state="open"] {
+  animation: faqDown 300ms ease-out forwards;
+}
+.faq-anim[data-state="closed"] {
+  animation: faqUp 300ms ease-out forwards;
+}
+
+@keyframes faqDown {
+  from { height: 0; overflow: hidden; }
+  to { height: var(--radix-accordion-content-height); overflow: hidden; }
+}
+@keyframes faqUp {
+  from { height: var(--radix-accordion-content-height); overflow: hidden; }
+  to { height: 0; overflow: hidden; }
 }

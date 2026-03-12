@@ -1,4 +1,5 @@
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import ThemeButton from "./Buttons/ThemeButton";
-export {Header , Footer ,ThemeButton }
+import{FaqAccordion }from "./FAQ";
+export {Header , Footer ,ThemeButton,FaqAccordion }

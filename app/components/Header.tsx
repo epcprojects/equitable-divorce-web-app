@@ -33,7 +33,7 @@ export const Header = () => {
   }, [heroHeight, headerHeight]);
   return (
     <div className='pt-0 lg:pt-3'>
-      <div id="site-header" className={`fixed left-0 right-0 container max-w-7xl mx-auto rounded-xl flex items-center justify-between bg-white px-6 py-2 z-20 transition-shadow duration-300 ${
+      <div id="site-header" className={`fixed left-0 right-0 container max-w-7xl mx-auto rounded-xl flex items-center justify-between bg-white px-6 py-2 z-80 transition-shadow duration-300 ${
           scrolled ? "shadow-xl" : ""
         }`}>
 

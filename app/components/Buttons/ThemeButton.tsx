@@ -8,7 +8,10 @@ export type buttonVariant =
   | 'secondary'
   | 'outline'
   | 'outlineWhite'
-  | 'outlinePrimary';
+  | 'outlinePrimary'
+  | 'rose'
+  | 'columbiablue'
+  ;
 // | "outline"
 // | "success"
 // | "primaryOutline"
@@ -61,6 +64,8 @@ const finalFontSize = fontSizeClass || fontSizeBySize[size];
       ? 'bg-gray-200 text-gray-400'
       : 'bg-primary-color text-white hover:bg-primary-color-dark',
     secondary: 'bg-secondary-color text-white hover:bg-secondary-color-dark',
+    rose: 'bg-light-rose text-black hover:bg-light-rose-dark group-hover:bg-light-rose-dark',
+    columbiablue: 'bg-columbia-blue text-black hover:bg-columbia-blue-dark group-hover:bg-columbia-blue-dark ',
     outline:
       'bg-white  text-gray-700 group-hover:!bg-gray-100 disabled:bg-gray-200 border border-gray-200 hover:bg-slate-50 disabled:text-gray-400 disabled:border-gray-200',
     outlineWhite:
