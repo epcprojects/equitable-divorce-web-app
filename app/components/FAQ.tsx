@@ -47,7 +47,7 @@ export const FaqAccordion= () => {
           <Accordion.Header>
             <Accordion.Trigger className="group flex justify-between items-center w-full p-4  text-left text-medium-gray text-lg data-[state=open]:text-purple-gray font-semibold">
               {item.title}
-              <ArrowDownIcon className="w-5 h-5 transition-transform duration-300 group-data-[state=open]:-rotate-180" />
+              <ArrowDownIcon className="w-5 h-5 transition-transform duration-300 group-data-[state=open]:-rotate-180 shrink-0" />
             </Accordion.Trigger>
           </Accordion.Header>
 

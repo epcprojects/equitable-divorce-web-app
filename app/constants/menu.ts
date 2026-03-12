@@ -1,5 +1,5 @@
 export const menuItems = [
-        { label: "Home", href: "" },
+        { label: "Home", href: "/" },
         { label: "About Us", href: "" },
         { label: "Pricing", href: "" },
         { label: "Contact Us", href: "" },

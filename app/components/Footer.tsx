@@ -9,8 +9,8 @@ export const Footer = () => {
 
     return (
         <div className='bg-white mt-auto mb-0 relative pt-16 pb-7'>
-            <Image src={images.landingpageImages.familyPlantBlue} alt={'Family Plant Blue'} className='absolute bottom-0 bg-cover' />
-            <div className='container max-w-7xl mx-auto px-4'>
+            <Image src={images.landingpageImages.familyPlantBlue} alt={'Family Plant Blue'} className='absolute bottom-0 bg-cover 2xl:block hidden ' />
+            <div className='container max-w-7xl mx-auto px-8'>
                 <div className='flex flex-col gap-10'>
                     <Image src={images.landingpageImages.logo} alt={'logo'} />
 
@@ -24,7 +24,7 @@ export const Footer = () => {
                         </p>
                     </div>
 
-                    <div className='flex flex-row gap-4 py-5 text-base font-semibold text-gray-800'>
+                    <div className='flex justify-center md:justify-start  flex-wrap gap-4 py-5 text-base font-semibold text-gray-800'>
                         {menuItems.map((link, index) => (
                             <Link
                                 key={index}
@@ -39,7 +39,7 @@ export const Footer = () => {
                 <div>
                     <HorizontalDivider />
                 </div>
-                <div className='flex flex-row justify-between'>
+                <div className='flex flex-col md:flex-row justify-between'>
                         <p>© 2023 Equitable Divorce. All rights reserved.</p>
                         <div className='flex flex-row gap-4'>
                             <Link href={""} className='w-11 h-11 flex items-center hover:cursor-pointer text-gray-500 hover:text-white hover:bg-primary-color justify-center rounded-full bg-gray-100'>
