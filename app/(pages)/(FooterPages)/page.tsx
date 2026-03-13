@@ -1,11 +1,11 @@
 "use client"
 import Image from "next/image";
-import { images } from "./ui";
+import { images } from "../../ui";
 import { BreakGif, CoupleGif, DivorceGif, FamilyGif, GrassGif, HeartGif, SeparationGif } from "@/public/gifs";
-import { FaqAccordion, ThemeButton } from "./components";
+import { FaqAccordion, ThemeButton } from "../../components";
 import { RightArrow } from "@/public/icons";
 import Link from "next/link";
-import { useResponsiveSize } from "./hooks/useResponsiveSize";
+import { useResponsiveSize } from "../../hooks/useResponsiveSize";
 
 export default function Home() {
   const isMobile = useResponsiveSize({
